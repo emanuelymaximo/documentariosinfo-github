@@ -135,29 +135,43 @@ header {
 }
 
 @media (max-width: 768px) {
+
+    img {
+        float: top;
+        width: 90%;
+        height: 30vh;
+        margin-top: 0;
+        margin-left: 0;
+        padding: 0%;
+        border-radius: 0.3rem;
+    }
     h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
         /* Tamanho da fonte em telas menores */
         letter-spacing: 0.2rem;
         /* Espaçamento entre letras em telas menores */
     }
 
     .resultados{
-        float: none;
-        width: 30%;
+        float: right;
+        width: 100%;
         /* Largura da caixa de resultados em telas menores */
         height: 40vh;
         /* Altura da caixa de resultados em telas menores */
+        overflow-y: auto;
     }
 
     .item_resultado{
-        font-size: 1.3rem;
+        font-size: 1rem;
         /* Tamanho da fonte dos títulos em telas menores */
+        width: 95%;
+
     }
 }
 
 /* Responsividade para celulares */
 @media (max-width: 480px) {
+
     img {
         float: top;
         width: 90%;
@@ -169,21 +183,23 @@ header {
     }
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         /* Tamanho da fonte em telas pequenas */
         letter-spacing: 0.1rem;
         /* Espaçamento entre letras em telas pequenas */
     }
     .resultados{
-        float: none;
-        width: 50%;
+        float: right;
+        width: 100%;
         /* Largura da caixa de resultados em telas pequenas */
         height: 50vh;
         /* Altura da caixa de resultados em telas pequenas */
+        overflow-y: auto;
     }
 
     .item_resultado{
-        font-size: 1.1rem;
+        font-size: 1rem;
         /* Tamanho da fonte dos títulos em telas pequenas */
+        width: 95%;
     }
 }
