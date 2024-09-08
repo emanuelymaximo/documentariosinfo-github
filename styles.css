@@ -52,3 +52,67 @@ a {
     text-decoration: none;
     color: white;
 }
+
+
+@media (max-width: 768px) {
+    header {
+        width: 95%;
+        float: center;
+    }
+
+    img {
+        float: bottom;
+        width: 100%;
+        height: 30vh;
+        margin-left: 0;
+        margin-bottom: 0;
+        padding: 0%;
+        border-radius: 0.3rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        /* Tamanho da fonte em telas pequenas */
+        letter-spacing: 0.1rem;
+        /* Espaçamento entre letras em telas pequenas */
+    }
+    body {
+float: center;
+width: 100%;
+    }
+    footer {
+        margin-bottom: 0;
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+    header {
+        width: 95%;
+        float: center;
+    }
+
+    img {
+        float: bottom;
+        width: 100%;
+        height: 30vh;
+        margin-left: 0;
+        margin-bottom: 0;
+        padding: 0%;
+        border-radius: 0.3rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        /* Tamanho da fonte em telas pequenas */
+        letter-spacing: 0.1rem;
+        /* Espaçamento entre letras em telas pequenas */
+    }
+    body {
+float: center;
+width: 100%;
+    }
+    footer {
+        margin-bottom: 0;
+    }
+}
