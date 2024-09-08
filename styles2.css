@@ -135,10 +135,14 @@ header {
 }
 
 @media (max-width: 768px) {
+    header {
+    width: 95%;
+    float: center;
+}
 
     img {
         float: top;
-        width: 90%;
+        width: 100%;
         height: 30vh;
         margin-top: 0;
         margin-left: 0;
@@ -154,7 +158,7 @@ header {
 
     .resultados{
         float: right;
-        width: 100%;
+        width: 97%;
         /* Largura da caixa de resultados em telas menores */
         height: 40vh;
         /* Altura da caixa de resultados em telas menores */
@@ -171,10 +175,14 @@ header {
 
 /* Responsividade para celulares */
 @media (max-width: 480px) {
+    header {
+    width: 95%;
+    float: center;
+}
 
     img {
         float: top;
-        width: 90%;
+        width: 100%;
         height: 30vh;
         margin-top: 0;
         margin-left: 0;
@@ -190,7 +198,7 @@ header {
     }
     .resultados{
         float: right;
-        width: 100%;
+        width: 97%;
         /* Largura da caixa de resultados em telas pequenas */
         height: 50vh;
         /* Altura da caixa de resultados em telas pequenas */
