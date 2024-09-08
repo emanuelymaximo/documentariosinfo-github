@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*1 - estilizando a página de documentários BIOGRÁFICOS*/
+
+#bodybio {
+    color: white;
+    background-color: #29170d;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#resultados_biograficos {
+    background-color: white;
+}
+
+/*2 - estilizando a página de documentários CIENTÍFICOS*/
+
+#bodycientificos {
+    color: white;
+    background-color: #224777;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#resultados_cientificos {
+    background-color: aliceblue;
+}
+
+/*3 - estilizando a página de documentários HISTÓRICOS*/
+#bodyhistoricos {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+/*4 - estilizando a página de documentários CONTEMPORÂNEOS*/
+#bodysociedade {
+    background-color: #33524C;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+/*5 estilizando aspectos gerais de TODAS as páginas secundárias (as que mostram os resultados)*/
+
+.resultados a {
+    text-decoration: none;
+    color: lightseagreen;
+    font-size: small;
+}
+
+img {
+    float: left;
+    width: 35rem;
+    height: 102vh;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0%;
+    border-radius: 0.3rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header {
+    width: 60%;
+    float: right;
+}
+
+
+.resultados {
+    background-color: white;
+    float: right;
+    width: 54rem;
+    height: 70vh;
+    overflow-y: auto;
+    margin-top: 0.2rem;
+    margin-right: 0.2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.item_resultado {
+    color: white;
+    background-color: black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+
+}
