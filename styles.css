@@ -73,6 +73,7 @@ a {
     body {
 float: center;
 width: 100vh;
+height: 100vh;
     }
     footer {
         margin-bottom: 0;
@@ -99,6 +100,7 @@ width: 100vh;
     body {
 float: center;
 width: 100vh;
+height: 100vh;
     }
     footer {
         margin-bottom: 0;
