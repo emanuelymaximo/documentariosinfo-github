@@ -98,6 +98,15 @@ header {
 }
 
 @media (max-width: 768px) {
+    img {
+        float: top;
+        width: 90%;
+        height: 30vh;
+        margin-top: 0;
+        margin-left: 0;
+        padding: 0%;
+        border-radius: 0.3rem;
+    }
     h1 {
         font-size: 2rem;
         /* Tamanho da fonte em telas menores */
@@ -149,6 +158,15 @@ header {
 
 /* Responsividade para celulares */
 @media (max-width: 480px) {
+    img {
+        float: top;
+        width: 90%;
+        height: 30vh;
+        margin-top: 0;
+        margin-left: 0;
+        padding: 0%;
+        border-radius: 0.3rem;
+    }
 
     h1 {
         font-size: 1.8rem;
